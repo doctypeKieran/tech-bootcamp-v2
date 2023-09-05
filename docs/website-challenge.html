@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h2>Tech Bootcamp Website Build Challenge</h2>
+    <h3>Objective</h3>
+    <p>
+      Create a <strong>simple tech bootcamp website</strong> that includes
+      various sections like a homepage, courses page, about page, contact page,
+      and a navigation menu. Utilize a variety of HTML and CSS features to
+      enhance the appearance and functionality of the website.
+    </p>
+    <h3>Requirements</h3>
+    <ol>
+      <li>
+        <p><strong>Homepage:</strong></p>
+        <ul>
+          <li>
+            Design a welcoming homepage with a prominent heading, subheading,
+            and a call-to-action button.
+          </li>
+          <li>
+            Include a background image or a background color to make the page
+            visually appealing.
+          </li>
+          <li>
+            Utilize a flexbox or grid layout to arrange the content in an
+            organized manner.
+          </li>
+        </ul>
+        <p>Example HTML structure:</p>
+        <pre><code class="language-html">&lt;section class=&quot;homepage&quot;&gt;
+    &lt;h1&gt;Welcome to Tech Bootcamp&lt;/h1&gt;
+    &lt;p&gt;Your journey to becoming a coding expert starts here.&lt;/p&gt;
+    &lt;a href=&quot;courses.html&quot; class=&quot;cta-button&quot;&gt;Explore Courses&lt;/a&gt;
+&lt;/section&gt;
+</code></pre>
+      </li>
+      <li>
+        <p><strong>Courses Page:</strong></p>
+        <ul>
+          <li>
+            Create a page to showcase different coding courses offered by the
+            bootcamp.
+          </li>
+          <li>
+            Use an HTML table or a list to display the course details, including
+            course name, duration, and price.
+          </li>
+          <li>Apply CSS styling to make the course list visually appealing.</li>
+        </ul>
+        <p>Example HTML structure:</p>
+        <pre><code class="language-html">&lt;section class=&quot;courses&quot;&gt;
+    &lt;h2&gt;Our Courses&lt;/h2&gt;
+    &lt;ul class=&quot;course-list&quot;&gt;
+        &lt;li&gt;
+            &lt;h3&gt;Web Development Fundamentals&lt;/h3&gt;
+            &lt;p&gt;Duration: 8 weeks&lt;/p&gt;
+            &lt;p&gt;Price: £2999&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;!-- Add more course items --&gt;
+    &lt;/ul&gt;
+&lt;/section&gt;
+</code></pre>
+      </li>
+      <li>
+        <p><strong>About Page:</strong></p>
+        <ul>
+          <li>
+            Design an about page that provides information about the bootcamp’s
+            mission and team.
+          </li>
+          <li>
+            Use CSS to create a visually appealing two-column layout for
+            displaying content.
+          </li>
+          <li>Include an image of the team or the bootcamp’s logo.</li>
+        </ul>
+        <p>Example HTML structure:</p>
+        <pre><code class="language-html">&lt;section class=&quot;about&quot;&gt;
+    &lt;div class=&quot;about-content&quot;&gt;
+        &lt;h2&gt;About Us&lt;/h2&gt;
+        &lt;p&gt;We are passionate about helping individuals kickstart their coding journey...&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;img src=&quot;team.jpg&quot; alt=&quot;Our Team&quot; class=&quot;team-image&quot;&gt;
+&lt;/section&gt;
+</code></pre>
+      </li>
+      <li>
+        <p><strong>Contact Page:</strong></p>
+        <ul>
+          <li>Create a contact page with a simple contact form.</li>
+          <li>
+            Use HTML form elements like input, textarea, and submit button.
+          </li>
+          <li>Apply CSS styling to make the form visually appealing.</li>
+        </ul>
+        <p>Example HTML structure:</p>
+        <pre><code class="language-html">&lt;section class=&quot;contact&quot;&gt;
+    &lt;h2&gt;Contact Us&lt;/h2&gt;
+    &lt;form class=&quot;contact-form&quot;&gt;
+        &lt;label for=&quot;name&quot;&gt;Name:&lt;/label&gt;
+        &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; required&gt;
+        
+        &lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;
+        &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
+        
+        &lt;label for=&quot;message&quot;&gt;Message:&lt;/label&gt;
+        &lt;textarea id=&quot;message&quot; name=&quot;message&quot; rows=&quot;4&quot; required&gt;&lt;/textarea&gt;
+        
+        &lt;button type=&quot;submit&quot;&gt;Send&lt;/button&gt;
+    &lt;/form&gt;
+&lt;/section&gt;
+</code></pre>
+      </li>
+      <li>
+        <p><strong>Navigation Menu:</strong></p>
+        <ul>
+          <li>
+            Create a navigation menu that allows users to navigate between
+            different pages.
+          </li>
+          <li>
+            Use an HTML list and CSS to style the menu as a horizontal or
+            vertical bar.
+          </li>
+          <li>
+            Apply CSS transitions or animations for a smooth navigation
+            experience.
+          </li>
+        </ul>
+        <p>Example HTML structure:</p>
+        <pre><code class="language-html">&lt;nav class=&quot;navigation&quot;&gt;
+    &lt;ul class=&quot;menu&quot;&gt;
+        &lt;li&gt;&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;courses.html&quot;&gt;Courses&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;about.html&quot;&gt;About Us&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;contact.html&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+</code></pre>
+      </li>
+    </ol>
+    <h3>Tips and Guidelines</h3>
+    <ul>
+      <li>
+        Use <strong>semantic HTML elements</strong> (e.g.,
+        <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>,
+        <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>,
+        <code>&lt;footer&gt;</code>) to structure your website properly.
+      </li>
+      <li>
+        Apply <strong>CSS styles</strong> using classes and IDs to enhance the
+        appearance and layout of different sections.
+      </li>
+      <li>
+        Experiment with CSS properties like colors, fonts, margins, paddings,
+        borders, and backgrounds to make your website visually appealing.
+      </li>
+      <li>
+        Practice using <strong>flexbox or grid layout</strong> for arranging
+        content in a structured manner.
+      </li>
+      <li>
+        Don’t forget to include <strong>responsive design</strong> principles to
+        ensure your website looks good on various screen sizes.
+      </li>
+    </ul>
+    <h3>Example CSS Styles</h3>
+    <p>Here are some example CSS styles to get you started:</p>
+    <pre><code class="language-css">/* Styles for the navigation menu */
+.navigation {
+    background-color: #333;
+}
+.menu {
+    list-style: none;
+    display: flex;
+}
+.menu li {
+    margin: 0 15px;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Styles for the call-to-action button */
+.cta-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Styles for the contact form */
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.contact-form label {
+    display: block;
+    font-weight: bold;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact-form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+</code></pre>
+    <h3>Conclusion</h3>
+    <p>
+      This challenge offers you the opportunity to explore and practice a wide
+      range of HTML and CSS features while building a simple tech bootcamp
+      website. Experiment with different styles, layouts, and elements to create
+      a visually appealing and functional website that showcases your coding
+      skills. Don’t hesitate to refer to online resources and documentation to
+      deepen your understanding of HTML and CSS concepts. Good luck, and have
+      fun coding!
+    </p>
+  </body>
+</html>
