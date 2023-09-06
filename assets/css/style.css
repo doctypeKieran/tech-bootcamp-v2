@@ -19,12 +19,55 @@ header {
     padding: 0 20rem;
 }
 
-main {
-    min-height: 100vh;
-}
-
 section {
     padding: 2rem 20rem;
+}
+
+/* Footer styles */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 1rem; */
+    padding: 1rem 0;
+    background-color: rgb(0, 91, 221);
+    color: white;
+}
+
+footer p {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+footer .copyright {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.footer-socials-group {
+    /* margin: 1rem 0; */
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.footer-socials-group a {
+    font-size: 2rem;
+    color: white;
+    transition: all 0.2s linear;
+}
+
+.footer-socials-group a:hover {
+    color: rgb(254, 85, 101);
+    transform: scale(1.2);
+}
+
+.footer-icon {
+    padding: 0.5rem;
 }
 
 /* LOGO STYLES */
@@ -119,10 +162,6 @@ a.primary-btn:hover {
     gap: 1rem;
 }
 
-.buttons-group .btn {
-    /* width: 50%; */
-}
-
 /* GRID LAYOUT STYLES */
 .grid-section {
     display: grid;
@@ -141,6 +180,7 @@ a.primary-btn:hover {
 
 .grid-left h1 {
     font-size: 3rem;
+    margin-bottom: 0.5rem;
 }
 
 .grid-left h1 span {
