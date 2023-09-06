@@ -211,3 +211,19 @@ a.primary-btn:hover {
 }
 
 /* COURSES.HTML STYLES */
+.courses-section {
+    padding: 3rem 20rem 10rem;
+}
+
+.courses-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+/* Course card styles */
+.course-card {}
+
+.course-card h2 {
+    font-size: 1rem;
+}
