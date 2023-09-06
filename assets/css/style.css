@@ -222,8 +222,50 @@ a.primary-btn:hover {
 }
 
 /* Course card styles */
-.course-card {}
+.course-card {
+    border: 1px solid black;
+    padding: 1rem;
+    box-shadow: -4px 4px 6px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    height: 420px;
+}
 
 .course-card h2 {
+    font-size: 1.25rem;
+}
+
+.course-card hr {
+    border: 1px solid rgb(133, 133, 133);
+}
+
+.course-card h3,
+p,
+ul {
     font-size: 1rem;
+}
+
+.course-list-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.course-card-btn {
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: rgb(0, 91, 221);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.course-card-btn:hover {
+    background-color: rgb(254, 85, 101);
 }
