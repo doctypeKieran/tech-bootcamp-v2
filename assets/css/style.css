@@ -8,9 +8,10 @@
     box-sizing: border-box;
 }
 
-/* Universal font */
+/* Universal font & Smooth Scrolling */
 html {
     font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* GENERAL STYLING */
@@ -218,8 +219,11 @@ a.primary-btn:hover {
 }
 
 /* COURSES.HTML STYLES */
+.courses-hero {
+    padding-bottom: 3rem;
+}
 .courses-section {
-    padding: 3rem 20rem 10rem;
+    padding: 0rem 20rem 10rem;
 }
 
 .courses-grid-container {
