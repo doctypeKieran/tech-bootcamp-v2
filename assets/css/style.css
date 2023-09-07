@@ -17,6 +17,7 @@ html {
 
 header {
     padding: 0 20rem;
+    width: 100%;
 }
 
 section {
@@ -97,9 +98,9 @@ footer .copyright {
 
 /* NAVBAR STYLES */
 .navbar {
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .links-group {
@@ -251,6 +252,9 @@ ul {
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+.course-list-item p {
+    font-weight: bold;
 }
 
 .course-card-btn {
