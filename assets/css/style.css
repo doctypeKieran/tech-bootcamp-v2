@@ -232,6 +232,10 @@ a.primary-btn:hover {
     justify-content: space-between;
     gap: 1rem;
     height: 420px;
+    transition: transform 0.2s linear;
+}
+.course-card:hover {
+    transform: scale(1.1);
 }
 
 .course-card h2 {
