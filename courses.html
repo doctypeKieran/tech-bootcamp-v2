@@ -1,402 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS Link -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <!-- Google Icons -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
-    <!-- Font Awesome Link -->
-    <script
-      src="https://kit.fontawesome.com/52cf2b10ea.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Richey's Bootcamp</title>
-  </head>
 
-  <body>
-    <header>
-      <!-- Header Logo -->
-      <div class="header-logo-container">
-        <img
-          class="logo-img"
-          src="assets/media/images/rocket-logo.png"
-          alt=""
-        />
-        <div class="header-logo-container-text-box">
-          <span class="top-text">Richey's</span>
-          <span class="bottom-text">Bootcamp</span>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Google Icons -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- Font Awesome Link -->
+  <script src="https://kit.fontawesome.com/52cf2b10ea.js" crossorigin="anonymous"></script>
+  <title>Richey's Bootcamp</title>
+</head>
+
+<body>
+  <header>
+    <!-- Header Logo -->
+    <div class="header-logo-container">
+      <img class="logo-img" src="assets/media/images/rocket-logo.png" alt="" />
+      <div class="header-logo-container-text-box">
+        <span class="top-text">Richey's</span>
+        <span class="bottom-text">Bootcamp</span>
+      </div>
+    </div>
+
+
+  </header>
+  <!-- Navigation Menu -->
+  <nav class="navbar">
+    <div class="links-group">
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="about.html">About</a>
+      <a href="#">Student Stories</a>
+      <a class="primary-btn primary-btn-nav" href="contact.html">Contact</a>
+    </div>
+  </nav>
+  <main>
+    <!-- Grid section: Courses -->
+    <section class="grid-section">
+      <!-- Grid: Left side -->
+      <div class="grid-left">
+        <div class="grid-left-header">
+          <h1>
+            Choosing a course shouldn't have to be
+            <span>rocket science.</span>
+          </h1>
+          <h2>We're here to make it easy.</h2>
+        </div>
+        <p>Browse our courses and choose the right one for you.</p>
+        <div class="buttons-group">
+          <a href="#" class="btn primary-btn">Try our free course!</a>
+          <a href="#" class="secondary-btn">Jump to courses!</a>
         </div>
       </div>
 
-      <!-- Navigation Menu -->
-      <nav class="navbar">
-        <div class="links-group">
-          <a href="index.html">Home</a>
-          <a href="courses.html">Courses</a>
-          <a href="about.html">About</a>
-          <a href="#">Student Stories</a>
-          <a class="primary-btn primary-btn-nav" href="contact.html">Contact</a>
-        </div>
-      </nav>
-    </header>
-
-    <main>
-      <!-- Grid section: Courses -->
-      <section class="grid-section">
-        <!-- Grid: Left side -->
-        <div class="grid-left">
-          <div class="grid-left-header">
-            <h1>
-              Choosing a course shouldn't have to be
-              <span>rocket science.</span>
-            </h1>
-            <h2>We're here to make it easy.</h2>
-          </div>
-          <p>Browse our courses and choose the right one for you.</p>
-          <div class="buttons-group">
-            <a href="#" class="btn primary-btn">Try our free course!</a>
-            <a href="#" class="secondary-btn">Jump to courses!</a>
-          </div>
-        </div>
-
-        <!-- Grid: Right side -->
-        <div class="grid-right" id="courses-grid-right">
-          <img src="assets/media/images/courses-img.png" alt="" />
-        </div>
-      </section>
-
-      <section class="courses-section">
-        <!-- Grid container for courses cards -->
-        <div class="courses-grid-container">
-          <!-- HTML Card -->
-          <div class="course-card">
-            <h2>HTML Essentials</h2>
-            <hr />
-            <h3>
-              Kick start your coding journey with our highly acclaimed HTML
-              course!
-            </h3>
-            <p>You can expect to learn:</p>
-            <ul>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Make your first web page</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>HTML Tags</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>HTML Forms, Inputs and Tables</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Semantic HTML</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Accessibility</p>
-              </div>
-            </ul>
-            <button class="course-card-btn">Enrol Now!</button>
-          </div>
-          <!-- CSS Card -->
-          <div class="course-card">
-            <h2>CSS Essentials</h2>
-            <hr />
-            <h3>
-              Make your web pages dazzle with CSS styling!
-            </h3>
-            <p>You can expect to learn:</p>
-            <ul>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>CSS Syntax</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Element, Class and ID Selectors</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>CSS Specificity</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Font styling</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Enhanced layout design</p>
-              </div>
-            </ul>
-            <button class="course-card-btn">Enrol Now!</button>
-          </div>
-          <!-- Advanced CSS Card -->
-          <div class="course-card">
-            <h2>Advanced CSS</h2>
-            <hr />
-            <h3>
-              Become a CSS Guru by learning advanced CSS concepts!
-            </h3>
-            <p>You can expect to learn:</p>
-            <ul>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Bootstrap 4</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Transitions and Animations</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Responsiveness with Media Queries</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Positioning and Display Properties</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Flexbox and Grid</p>
-              </div>
-            </ul>
-            <button class="course-card-btn">Enrol Now!</button>
-          </div>
-          <!-- JS Intro Card -->
-          <div class="course-card">
-            <h2>Introduction to JavaScript</h2>
-            <hr />
-            <h3>
-              Add functionality to your websites with JavaScript!
-            </h3>
-            <p>You can expect to learn:</p>
-            <ul>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Variables</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Targeting HTML Elements</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Data Types</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Loops</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Functions</p>
-              </div>
-            </ul>
-            <button class="course-card-btn">Enrol Now!</button>
-          </div>
-          <!-- JS Intermediate Card -->
-          <div class="course-card">
-            <h2>Intermediate JavaScript</h2>
-            <hr />
-            <h3>
-              Dive deeper into JavaScript and become a programming ninja!
-            </h3>
-            <p>You can expect to learn:</p>
-            <ul>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>ES6 Syntax</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Arrow and Callback Functions</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Objects and OOP</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>API Requests</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Classes</p>
-              </div>
-            </ul>
-            <button class="course-card-btn">Enrol Now!</button>
-          </div>
-          <!-- JS Advanced Card -->
-          <div class="course-card">
-            <h2>Advanced JS Concepts</h2>
-            <hr />
-            <h3>
-              Become the ultimate JS Engineer by learning the advanced concepts!
-            </h3>
-            <p>You can expect to learn:</p>
-            <ul>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Back-End JS with Node & Express</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Promises</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Async/Await</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Higher-Order Functions</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>JS Frameworks</p>
-              </div>
-            </ul>
-            <button class="course-card-btn">Enrol Now!</button>
-          </div>
-          <!-- Python Card -->
-          <div class="course-card">
-            <h2>Python Essentials</h2>
-            <hr />
-            <h3>
-              Get cracking on the Back-End with some Python Essentials!
-            </h3>
-            <p>You can expect to learn:</p>
-            <ul>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Data Types</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Modules</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Functions</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Loops</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Operators</p>
-              </div>
-            </ul>
-            <button class="course-card-btn">Enrol Now!</button>
-          </div>
-          <!-- PHP Card -->
-          <div class="course-card">
-            <h2>PHP Essentials</h2>
-            <hr />
-            <h3>
-              Make your web pages talk to servers by sprinkling in some PHP!
-            </h3>
-            <p>You can expect to learn:</p>
-            <ul>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Generate Dynamic Page Content</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Collect Form Data</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Create, Read and Delete Server Files</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Sending & Receiving Cookies (yum!)</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Controlling User Access</p>
-              </div>
-            </ul>
-            <button class="course-card-btn">Enrol Now!</button>
-          </div>
-          <!-- SQL Card -->
-          <div class="course-card">
-            <h2>Introduction to SQL</h2>
-            <hr />
-            <h3>
-              Get started with databases and store information with SQL!
-            </h3>
-            <p>You can expect to learn:</p>
-            <ul>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Creating your first database</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Making queries</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Retrieving & Updating Data</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>Creating Tables in a Database</p>
-              </div>
-              <div class="course-list-item">
-                <span class="material-symbols-outlined"> done </span>
-                <p>SQL Commands</p>
-              </div>
-            </ul>
-            <button class="course-card-btn">Enrol Now!</button>
-          </div>
-          <!-- Front-End Card -->
-          <div class="course-card">
-            <h2>Front-End Engineer Path</h2>
-          </div>
-          <!-- Back-End Card -->
-          <div class="course-card">
-            <h2>Back-End Engineer Path</h2>
-          </div>
-          <!-- Full-Stack Card -->
-          <div class="course-card">
-            <h2>Full-Stack Engineer Path</h2>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-      <p>Find us on:</p>
-      <div class="footer-socials-group">
-        <a class="footer-icon" href="https://www.facebook.com/" target="_blank"
-          ><i class="fa-brands fa-facebook"></i
-        ></a>
-        <a class="footer-icon" href="https://www.instagram.com/" target="_blank"
-          ><i class="fa-brands fa-instagram"></i
-        ></a>
-        <a class="footer-icon" href="https://www.twitter.com/" target="_blank"
-          ><i class="fa-brands fa-twitter"></i
-        ></a>
-        <a class="footer-icon" href="https://www.linkedin.com/" target="_blank"
-          ><i class="fa-brands fa-linkedin"></i
-        ></a>
+      <!-- Grid: Right side -->
+      <div class="grid-right" id="courses-grid-right">
+        <img src="assets/media/images/courses-img.png" alt="" />
       </div>
-      <p class="copyright">Copyright &copy; 2023</p>
-    </footer>
-  </body>
+    </section>
+
+    <section class="courses-section">
+      <!-- Grid container for courses cards -->
+      <div class="courses-grid-container">
+        <!-- HTML Card -->
+        <div class="course-card">
+          <h2>HTML Essentials</h2>
+          <hr />
+          <h3>
+            Kick start your coding journey with our highly acclaimed HTML
+            course!
+          </h3>
+          <p>You can expect to learn:</p>
+          <ul>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Make your first web page</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>HTML Tags</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>HTML Forms, Inputs and Tables</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Semantic HTML</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Accessibility</p>
+            </div>
+          </ul>
+          <button class="course-card-btn">Enrol Now!</button>
+        </div>
+        <!-- CSS Card -->
+        <div class="course-card">
+          <h2>CSS Essentials</h2>
+          <hr />
+          <h3>
+            Make your web pages dazzle with CSS styling!
+          </h3>
+          <p>You can expect to learn:</p>
+          <ul>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>CSS Syntax</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Element, Class and ID Selectors</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>CSS Specificity</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Font styling</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Enhanced layout design</p>
+            </div>
+          </ul>
+          <button class="course-card-btn">Enrol Now!</button>
+        </div>
+        <!-- Advanced CSS Card -->
+        <div class="course-card">
+          <h2>Advanced CSS</h2>
+          <hr />
+          <h3>
+            Become a CSS Guru by learning advanced CSS concepts!
+          </h3>
+          <p>You can expect to learn:</p>
+          <ul>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Bootstrap 4</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Transitions and Animations</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Responsiveness with Media Queries</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Positioning and Display Properties</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Flexbox and Grid</p>
+            </div>
+          </ul>
+          <button class="course-card-btn">Enrol Now!</button>
+        </div>
+        <!-- JS Intro Card -->
+        <div class="course-card">
+          <h2>Introduction to JavaScript</h2>
+          <hr />
+          <h3>
+            Add functionality to your websites with JavaScript!
+          </h3>
+          <p>You can expect to learn:</p>
+          <ul>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Variables</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Targeting HTML Elements</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Data Types</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Loops</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Functions</p>
+            </div>
+          </ul>
+          <button class="course-card-btn">Enrol Now!</button>
+        </div>
+        <!-- JS Intermediate Card -->
+        <div class="course-card">
+          <h2>Intermediate JavaScript</h2>
+          <hr />
+          <h3>
+            Dive deeper into JavaScript and become a programming ninja!
+          </h3>
+          <p>You can expect to learn:</p>
+          <ul>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>ES6 Syntax</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Arrow and Callback Functions</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Objects and OOP</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>API Requests</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Classes</p>
+            </div>
+          </ul>
+          <button class="course-card-btn">Enrol Now!</button>
+        </div>
+        <!-- JS Advanced Card -->
+        <div class="course-card">
+          <h2>Advanced JS Concepts</h2>
+          <hr />
+          <h3>
+            Become the ultimate JS Engineer by learning the advanced concepts!
+          </h3>
+          <p>You can expect to learn:</p>
+          <ul>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Back-End JS with Node & Express</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Promises</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Async/Await</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Higher-Order Functions</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>JS Frameworks</p>
+            </div>
+          </ul>
+          <button class="course-card-btn">Enrol Now!</button>
+        </div>
+        <!-- Python Card -->
+        <div class="course-card">
+          <h2>Python Essentials</h2>
+          <hr />
+          <h3>
+            Get cracking on the Back-End with some Python Essentials!
+          </h3>
+          <p>You can expect to learn:</p>
+          <ul>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Data Types</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Modules</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Functions</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Loops</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Operators</p>
+            </div>
+          </ul>
+          <button class="course-card-btn">Enrol Now!</button>
+        </div>
+        <!-- PHP Card -->
+        <div class="course-card">
+          <h2>PHP Essentials</h2>
+          <hr />
+          <h3>
+            Make your web pages talk to servers by sprinkling in some PHP!
+          </h3>
+          <p>You can expect to learn:</p>
+          <ul>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Generate Dynamic Page Content</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Collect Form Data</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Create, Read and Delete Server Files</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Sending & Receiving Cookies (yum!)</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Controlling User Access</p>
+            </div>
+          </ul>
+          <button class="course-card-btn">Enrol Now!</button>
+        </div>
+        <!-- SQL Card -->
+        <div class="course-card">
+          <h2>Introduction to SQL</h2>
+          <hr />
+          <h3>
+            Get started with databases and store information with SQL!
+          </h3>
+          <p>You can expect to learn:</p>
+          <ul>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Creating your first database</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Making queries</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Retrieving & Updating Data</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>Creating Tables in a Database</p>
+            </div>
+            <div class="course-list-item">
+              <span class="material-symbols-outlined"> done </span>
+              <p>SQL Commands</p>
+            </div>
+          </ul>
+          <button class="course-card-btn">Enrol Now!</button>
+        </div>
+        <!-- Front-End Card -->
+        <div class="course-card">
+          <h2>Front-End Engineer Path</h2>
+        </div>
+        <!-- Back-End Card -->
+        <div class="course-card">
+          <h2>Back-End Engineer Path</h2>
+        </div>
+        <!-- Full-Stack Card -->
+        <div class="course-card">
+          <h2>Full-Stack Engineer Path</h2>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Find us on:</p>
+    <div class="footer-socials-group">
+      <a class="footer-icon" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a class="footer-icon" href="https://www.instagram.com/" target="_blank"><i
+          class="fa-brands fa-instagram"></i></a>
+      <a class="footer-icon" href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+      <a class="footer-icon" href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <p class="copyright">Copyright &copy; 2023</p>
+  </footer>
+</body>
+
 </html>
